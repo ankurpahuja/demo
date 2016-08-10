@@ -1,5 +1,5 @@
 line1-modified
-line2
-line3
+line2-modified
+line3-modified
 line4
 line5
