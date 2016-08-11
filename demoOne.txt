@@ -1,5 +1,5 @@
 line1-modified-new modification.
-line2-modified
+line2-modified-new commit.
 line3-modified
 line4-modified
 line5
