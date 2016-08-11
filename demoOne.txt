@@ -1,4 +1,4 @@
-line1-modified
+line1-modified-new modification.
 line2-modified
 line3-modified
 line4-modified
