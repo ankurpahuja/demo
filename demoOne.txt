@@ -2,7 +2,7 @@ line1-modified-new modification.
 line2-modified-new commit.
 line3-modified
 line4-modified
-line5
-line6
-line7
-line8
+line5-modified
+line6-modified
+line7-modified
+line8-modified
