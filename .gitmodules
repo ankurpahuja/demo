@@ -1,4 +1,4 @@
 [submodule "dbconnector"]
 	path = dbconnector
 	url = https://ankurpahuja@bitbucket.org/ankurdemo/dbconnector.git
-	branch = master
+	branch = stable
