@@ -1,0 +1,3 @@
+#!/bin/sh
+#Put this in .git/hooks/
+cscript ./Scripts/msgBox.vbs "          Do not push without testing!          "
