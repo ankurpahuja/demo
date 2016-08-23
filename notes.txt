@@ -1,0 +1,22 @@
+http://stackoverflow.com/questions/3161204/find-the-parent-branch-of-a-git-branch/3162929#3162929
+get the name of parent branch.
+
+git rev-parse HEAD
+gets the sha of last commit.
+
+git diff --name-only --diff-filter=U
+gets list of files with merge conflicts
+
+git diff --name-only --diff-filter=U | wc -l
+gets the # of lines i.e. the number of files with merge conflicts.
+
+grep -irm 1 carrot . | wc -l
+gives # of files containing keyword 'carrot'.
+
+git add -u
+adds all the files (including with merge conflicts) to stage.
+
+git commit -m "this is a normal message"
+commit with message.
+
+current branch : git rev-parse --abbrev-ref HEAD
