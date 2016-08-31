@@ -20,3 +20,7 @@ git commit -m "this is a normal message"
 commit with message.
 
 current branch : git rev-parse --abbrev-ref HEAD
+
+conflict count by file type:
+$ git diff --name-only --diff-filter=U | sed 's/.*\.//g' | sort | uniq -c
+
