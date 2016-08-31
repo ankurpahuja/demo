@@ -24,3 +24,8 @@ current branch : git rev-parse --abbrev-ref HEAD
 conflict count by file type:
 $ git diff --name-only --diff-filter=U | sed 's/.*\.//g' | sort | uniq -c
 
+----
+for f in "FileList"; do
+    git show <branch>:$f > $f
+done
+----
